@@ -1,6 +1,6 @@
 const app = "I don't do much."
 
-function kittens()
+function arrays()
 
 function destructivelyAppendKitten(name){
   name.push()
