@@ -13,6 +13,16 @@ function destructivelyPrependKitten(name){
   }
 }
 
-function destructivelyRemoveLastKitten(){
-  
+function destructivelyRemoveLastKitten(name){
+  name.pop()
 }
+
+function destructivelyRemoveFirstKitten(name){
+  name.shift()
+  return name
+}
+
+function appendKitten(name){
+  return name.unshift(name)
+}
+
