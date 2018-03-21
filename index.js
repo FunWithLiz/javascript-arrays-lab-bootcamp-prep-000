@@ -2,8 +2,8 @@ const app = "I don't do much."
 
 function destructivelyAppendKitten(name){
 }
-function appendKitten(){
- name.push()
+function appendKitten(add){
+ name.push(add)
   return name
 }
 
