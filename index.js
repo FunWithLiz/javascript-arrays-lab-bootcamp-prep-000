@@ -22,5 +22,5 @@ return kittens.push(bob)
 }
 
 function prependKitten(name){
-  
+  return kittens.unshift(name)
 }
