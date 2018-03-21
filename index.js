@@ -2,7 +2,7 @@ const app = "I don't do much."
 
 function destructivelyAppendKitten(name){
 function appendKitten(){
-  name.push()
+  return name.push()
 }
 }
 
