@@ -3,8 +3,8 @@ const app = "I don't do much."
 function destructivelyAppendKitten(name){
 }
 function appendKitten(add){
- name.push(add)
-  return name
+ var additionalName = name.push(add)
+  return additionalName
 }
 
 
