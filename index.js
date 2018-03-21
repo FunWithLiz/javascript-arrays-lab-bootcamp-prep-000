@@ -24,3 +24,11 @@ return kittens.push(bob)
 function prependKitten(name){
   return kittens.unshift(name)
 }
+
+function removeLastKitten(name){
+  return kittens.pop(name)
+}
+
+function removeFirstKitten(name){
+  return kittens.shift(name)
+}
