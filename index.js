@@ -7,4 +7,12 @@ function appendKitten(){
 }
 }
 
+function destructivelyPrependKitten(name){
+  function prependKitten(){
+    name.unshift()
+  }
+}
 
+function destructivelyRemoveLastKitten(){
+  
+}
